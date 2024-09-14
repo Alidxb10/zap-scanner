@@ -2,8 +2,8 @@ const axios = require('axios');
 
 // OWASP ZAP API URLs and API Key
 const ZAP_BASE_URL = 'http://localhost:8080'; // Default ZAP URL
-const ZAP_API_KEY = 'hvj7vho03ini9quarkj37gsjcn'; // Your ZAP API key
-const targetUrl = 'https://altoromutual.com/'; // Target website
+const ZAP_API_KEY = 'Your ZAP API key'; // Your ZAP API key
+const targetUrl = 'Target website'; // Target website
 
 // Function to spider (crawl) the target URL
 async function spiderTarget() {
